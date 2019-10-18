@@ -1,3 +1,25 @@
-h2 {
-	color: orange;
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(39, 41, 68)
+}
+
+header {
+	background-color: aliceblue;
+	padding: 20px;
+}
+header > h1 {
+	color: #25272E;
+	text-align: center;
+	font-family: sans-serif;
+}
+.score-board {
+	margin:20px;
+	border:3px solid white;
+	width: 200px;
+	color:white;
+	font-size: 46px;
 }

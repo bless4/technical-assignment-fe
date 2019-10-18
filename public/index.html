@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Rock - Paper - Scissors</title>
-		<meta charset="UTF-8" />
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-	</head>
-	<body>
-		<h1>You are ready to go! :)</h1>
-		<h2>Good luck!</h2>
-	</body>
+
+<head>
+	<title>Rock - Paper - Scissors</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../src/css/style.css">
+	<title>Rock Paper & Scissors Game</title>
+</head>
+
+<body>
+	<header>
+		<h1>Rock, Paper & Scissors Game</h1>
+	</header>
+
+	<div class="score-board">
+		<div id="user-label" classs="score-board">User</div>
+		<div id="computer-label" classs="score-board">comp</div>
+		<span id="user-score">0</span><span>:</span><span id="computer-score">0</span>
+
+	</div>
+
+	<div>
+		<p>Paper covers rock, you won!</p>
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="r">
+		<img src="assets/rock.png" alt="rock">
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="p">
+		<img src="assets/Paper.png" alt="paper">
+	</div>
+
+	<div class="choices">
+		<div class="choice" id="s">
+		<img src="assets/scissors.png" alt="scissors">
+	</div>
+	</div>
+
+	<p id= "action-message">Click any of the image to make a move!</p>
+
+	
+
+
+</body>
+
 </html>
